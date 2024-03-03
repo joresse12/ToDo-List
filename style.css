@@ -1,0 +1,22 @@
+:root {
+    --color-1: hsl(282.5, 44.04%, 42.75%);
+    --color-2: hsl(306.49, 23.87%, 69.61%);
+    --color-3: hsl(315, 40%, 92.16%);
+    --color-4: hsl(302.73, 51.16%, 66.27%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, var(--color-1) 0%, var(--color-1) 25%, var(--color-2) 25%, var(--color-2) 50%, var(--color-3) 50%, var(--color-3) 75%, var(--color-4) 75%, var(--color-4) 100%);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
