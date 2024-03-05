@@ -20,3 +20,11 @@ body {
     display: flex;
     justify-content: center;
 }
+.task-list ul{
+    list-style: none;
+    text-decoration: none;
+}
+.task-list ul img{
+    width: 25px !important;
+    height: 25px !important;
+}

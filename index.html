@@ -12,13 +12,17 @@
     <div class="container">
         <div class="todoList">
             <div class="input-field">
-                <form action="">
-                    <input type="text" placeholder="Enter your Task ...">
-                    <button>Add Task</button>
-                </form>
+                <input type="text" placeholder="Enter your Task ..." id="taskContent">
+                <button onclick="addTask()">Add Task</button>
             </div>
             <div class="task-list">
-
+                <ul id="myList">
+                    <li>hier ist meine Liste
+                        <img src="./logoImage/deleteImg.jpg" alt="">
+                        <img src="./logoImage/editImg.png" alt="">
+                    </li>
+                    
+                </ul>
             </div>
         </div>
        
